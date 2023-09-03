@@ -1,0 +1,147 @@
+@media (max-width: 640px){
+    .faculty{
+        width: 350px;
+        height: 420px;
+    }
+
+    .first-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .about  {
+        padding: 0px !important;
+        padding-top: 40px !important;
+      }
+      
+}
+
+
+@media (max-width: 991px){
+    .about{
+        padding: 30px 20px;
+        text-align: justify;
+    }
+
+    #about {
+        display: block;
+    }
+
+    .Sections{
+        margin: 50px;
+    }
+
+
+    .footer {
+        justify-content: left;
+        padding: 50px 0px;
+    }
+
+    .footer > .foot {
+        margin: 40px 60px;
+    }
+
+  
+}
+
+@media only screen and (min-width: 640px) {
+    .section-container {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    }
+  
+    .container {
+      background-color: #f9f9f9;
+      padding-bottom: 2.5rem;
+    }
+  
+    .header-text {
+      font-size: 1.875rem;
+    }
+  
+    .sub-header-text {
+      margin-top: 2rem;
+      font-size: 1rem;
+    }
+  
+    .accordion-div {
+      padding-top: 5rem;
+  
+      padding-bottom: 2.5rem;
+    }
+  }
+  
+  @media only screen and (min-width: 767px) {
+    .mini-container {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .section-container {
+      padding-left: 5rem;
+      padding-right: 5rem;
+      padding-top: 9rem;
+    }
+  
+    .header-text {
+      font-size: 2.5rem;
+    }
+  
+    .sub-header-text {
+      margin-top: 2.5rem;
+      font-size: 1.125rem;
+    }
+
+    .first-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap !important;
+        width: fit-content;
+      }
+    
+      
+      .faculty {
+        position: relative;
+        height: 410px;
+        width: 275px;
+        margin-top: 100px;
+        margin-right: 20px;
+      }
+
+      .card .faculty
+      {
+        height: 475px;
+        margin-top: unset;
+      }
+      
+      .faculty:nth-child(4){
+          margin-right: 0px;
+      } 
+      .faculty:last-child{
+          margin-right: 0px;
+      } 
+      
+      .card 
+{
+  margin-top: 0 ;
+
+
+}
+
+.card-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+  }
+  
+  
